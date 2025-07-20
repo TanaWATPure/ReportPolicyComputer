@@ -1,0 +1,246 @@
+﻿@model List<Dictionary<string, object>>
+
+@{
+    ViewData["Title"] = "Policy  Monitoring";
+
+    Layout = null;
+    var totalComputers = Model?.Count ?? 0;
+    var Index = 1;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+
+    <link rel="icon" type="image/png" href="~/images/beko-logo.png" />
+
+    <link rel="stylesheet" href="~/lib/fontawesome-free-6.7.2-web/css/all.min.css">
+
+<style>
+    body {
+        background-color: #111217;
+        color: #d8d9da;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        padding: 5px;
+    }
+
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto auto 1fr;
+        gap: 15px;
+        height: calc(100vh - 40px);
+    }
+
+    .panel {
+        background-color: #181B1F;
+        border: 1px solid #202226;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .panel-title {
+            font-size: 0.9em;
+            color: #b8b8b8;
+            padding: 8px 12px;
+            font-weight: 500;
+            border-bottom: 1px solid #202226;
+            display: flex;
+            gap: 1rem;
+    }
+
+    .panel-content {
+        padding: 15px;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .stat-panel {
+        padding: 15px 20px;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+    }
+
+        .stat-panel .title {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .stat-panel .value {
+            font-size: 3.5em;
+            font-weight: 600;
+            line-height: 1.1;
+        }
+        .stat-red {
+                background: linear-gradient(135deg, #cf0404, #ff0000);
+        }
+
+        .stat-blue {
+            background: linear-gradient(135deg, #1F60A9, #3274D9);
+        }
+
+        .stat-green {
+            background: linear-gradient(135deg, #2A7A22, #56B849);
+        }
+
+        .stat-orange {
+            background: linear-gradient(135deg, #E0752D, #F5A623);
+        }
+
+        .stat-gray {
+            background: linear-gradient(135deg, #464C54, #6C757D);
+        }
+
+    .chart-panel, .map-panel {
+        grid-column: span 2;
+    }
+
+    .placeholder-text {
+        color: #6c757d;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .table-panel {
+        grid-column: 1 / -1;
+    }
+
+        .table-panel .panel-content {
+            padding: 0;
+            overflow-y: auto;
+        }
+
+    .grafana-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9em;
+    }
+
+        .grafana-table th, .grafana-table td {
+            padding: 10px 15px;
+            text-align: left;
+            border-bottom: 1px solid #282a2e;
+        }
+
+        .grafana-table thead th {
+            background-color: #202226;
+            color: #b8b8b8;
+            font-weight: 600;
+        }
+
+        .grafana-table tbody tr:hover {
+            background-color: #282a2e;
+        }
+
+    .tag {
+        background-color: red;
+        color: white;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 0.9em;
+        display: inline-block;
+        margin: 2px;
+    }
+
+
+
+</style>
+</head>
+<body>
+<div class="dashboard-grid">
+    <div class="panel stat-panel stat-red">
+        <div class="title">Total Computers</div>
+        <div class="value">@totalComputers</div>
+    </div>
+     <div class="panel stat-panel stat-gray">
+            <div class="title" id="currentTimeTitle">Current Time:</div>
+            <div class="value" id="realtimeClock"></div>
+     </div>
+     
+       
+    <div class="panel table-panel">
+            <div class="panel-title">
+                The list does not delete the production policy
+
+
+                @if (Model != null && Model.Any())
+                {
+                    <form asp-action="SendManualReport" method="post" style="margin:0;">
+                        <button type="submit" class="btn btn-danger btn-sm"> Send Report Email</button>
+                    </form>
+                }
+            </div>
+
+        <div class="panel-content">
+            <table class="grafana-table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Computer</th>
+                        <th>Description</th>
+                        <th>Operating System</th>
+                        <th>Member Of</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model == null || !Model.Any())
+                    {
+                        <tr><td colspan="4" style="text-align: center; padding: 20px;">No computer data available.</td></tr>
+                    }
+                    else
+                    {
+                            @foreach (var computer in Model)
+                            {
+                                <tr>
+                                    <td>@Index</td>
+                                    <td>@computer.GetValueOrDefault("name")</td>
+                                    <td>@computer.GetValueOrDefault("description")</td>
+                                    <td>@computer.GetValueOrDefault("operatingSystem")</td>
+                                    <td>
+                                        @{
+                                            object memberOfValue = computer.GetValueOrDefault("memberOf");
+                                            if (memberOfValue is string singleGroup)
+                                            {
+                                                <span class="tag">@singleGroup</span>
+                                            }
+                                            else if (memberOfValue is IEnumerable<string> groups && groups.Any())
+                                            {
+                                                foreach (var group in groups)
+                                                {
+                                                    <span class="tag">@group</span>
+                                                }
+                                            }
+                                        }
+                                    </td>
+                                </tr>
+                                Index++;
+                            }
+
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+</div>
+<script>
+        function updateClock() {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString();
+            document.getElementById("realtimeClock").textContent = timeString;
+        }
+
+        setInterval(updateClock, 1000);
+
+        updateClock();
+</script>
+</body>
+</html>

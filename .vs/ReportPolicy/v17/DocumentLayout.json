@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\controllers\\getadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\controllers\\getadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\services\\report\\adreportlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\services\\report\\adreportlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\services\\report\\adreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\services\\report\\adreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\services\\report\\reportemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\services\\report\\reportemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\reportpolicy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\reportpolicy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|c:\\users\\26113121\\source\\repos\\reportpolicy - copy\\reportpolicy\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B519FB06-B161-472D-9F5D-85DAAFBFFE81}|ReportPolicy\\ReportPolicy.csproj|solutionrelative:reportpolicy\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 293,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetadController.cs",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Controllers\\GetadController.cs",
+              "RelativeDocumentMoniker": "ReportPolicy\\Controllers\\GetadController.cs",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Controllers\\GetadController.cs",
+              "RelativeToolTip": "ReportPolicy\\Controllers\\GetadController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T04:16:55.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ReportPolicy\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ReportPolicy\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-06T06:37:36.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ReportPolicy\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ReportPolicy\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T05:24:40.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "ReportPolicy\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "ReportPolicy\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:24:20.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdReportService.cs",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Services\\Report\\AdReportService.cs",
+              "RelativeDocumentMoniker": "ReportPolicy\\Services\\Report\\AdReportService.cs",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Services\\Report\\AdReportService.cs",
+              "RelativeToolTip": "ReportPolicy\\Services\\Report\\AdReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:29:35.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdReportLogic.cs",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Services\\Report\\AdReportLogic.cs",
+              "RelativeDocumentMoniker": "ReportPolicy\\Services\\Report\\AdReportLogic.cs",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Services\\Report\\AdReportLogic.cs",
+              "RelativeToolTip": "ReportPolicy\\Services\\Report\\AdReportLogic.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAgwJwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:30:37.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Services\\Report\\ReportEmailService.cs",
+              "RelativeDocumentMoniker": "ReportPolicy\\Services\\Report\\ReportEmailService.cs",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Services\\Report\\ReportEmailService.cs",
+              "RelativeToolTip": "ReportPolicy\\Services\\Report\\ReportEmailService.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAowE0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T01:33:43.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Program.cs",
+              "RelativeDocumentMoniker": "ReportPolicy\\Program.cs",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Program.cs",
+              "RelativeToolTip": "ReportPolicy\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T03:33:02.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Views\\Report\\Index.cshtml",
+              "RelativeDocumentMoniker": "ReportPolicy\\Views\\Report\\Index.cshtml",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Views\\Report\\Index.cshtml",
+              "RelativeToolTip": "ReportPolicy\\Views\\Report\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T06:54:45.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ReportPolicy\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ReportPolicy\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T03:22:52.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ReportPolicy\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ReportPolicy\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T06:55:32.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportPolicy.csproj",
+              "DocumentMoniker": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\ReportPolicy.csproj",
+              "RelativeDocumentMoniker": "ReportPolicy\\ReportPolicy.csproj",
+              "ToolTip": "C:\\Users\\26113121\\source\\repos\\ReportPolicy - Copy\\ReportPolicy\\ReportPolicy.csproj",
+              "RelativeToolTip": "ReportPolicy\\ReportPolicy.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T01:48:41.892Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 11,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
